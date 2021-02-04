@@ -1,3 +1,5 @@
+# http://eddylab.org/
+# docker build --tag infernal:1.1.4 .
 FROM ubuntu:20.04
 
 WORKDIR /infernal/
