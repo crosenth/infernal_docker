@@ -1,6 +1,6 @@
 # http://eddylab.org/
 # docker build --tag infernal:1.1.5 .
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 RUN BUILD_DEPS='build-essential wget' WORKDIR='/usr/src/infernal' \
     && apt-get update \
